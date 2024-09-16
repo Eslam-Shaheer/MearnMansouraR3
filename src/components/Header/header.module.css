@@ -1,0 +1,22 @@
+.header{
+    height: 70px;
+    background-color: #e1e1e1;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding:0 30px;
+  }
+
+  .header a{
+    color: cadetblue;
+    font-size: 20px;
+    transition-duration: 0.2s;
+  }
+  .header a:hover{
+    color: blue;
+  }
+
+  .active{
+    text-decoration: none;
+    color: blue !important;
+  }
