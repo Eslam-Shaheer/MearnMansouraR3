@@ -1,11 +1,11 @@
 import getProducts from "@/lib/getProducts";
 
 export async function GET(request) {
-  console.log(request, "request");
-  const products = await getProducts();
-  return new Response(JSON.stringify(products), {
-    status: 200,
-  });
+  // console.log(request, "request");
+  // const products = await getProducts();
+  // return new Response(JSON.stringify(products), {
+  //   status: 200,
+  // });
 }
 
 // export async function POST(request) {}

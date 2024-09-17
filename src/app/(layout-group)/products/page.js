@@ -7,15 +7,15 @@ import Card from "./Card";
 // export const fetchCache = "force-no-store";
 
 const Products = async () => {
-  const products = await fetch(`http://localhost:5000/products`).then((res) =>
-    res.json()
-  );
-  console.log("Products");
-  const news = await fetch(`http://localhost:5000/news`);
+  // const products = await fetch(`http://localhost:5000/products`).then((res) =>
+  //   res.json()
+  // );
+  // console.log("Products");
+  // const news = await fetch(`http://localhost:5000/news`);
 
   return (
     <div className={styles.container}>
-      {products.map((product) => (
+      {/* {products.map((product) => (
         <Card
           key={product.id}
           name={product.name}
@@ -24,7 +24,7 @@ const Products = async () => {
           price={product.price}
           color={product.color}
         />
-      ))}
+      ))} */}
     </div>
   );
 };

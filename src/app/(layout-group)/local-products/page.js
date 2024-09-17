@@ -4,10 +4,10 @@ import React from "react";
 import styles from "../products/products.module.css";
 import Card from "../products/Card";
 const LocalProducts = async () => {
-  const products = await getProducts();
+  // const products = await getProducts();
   return (
     <div className={styles.container}>
-      {products.reverse().map((product) => (
+      {/* {products.reverse().map((product) => (
         <Card
           key={product.id}
           name={product.name}
@@ -16,7 +16,7 @@ const LocalProducts = async () => {
           price={product.price}
           color={product.color}
         />
-      ))}
+      ))} */}
     </div>
   );
 };
