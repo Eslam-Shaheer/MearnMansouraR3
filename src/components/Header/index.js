@@ -6,7 +6,6 @@ import { routes } from "./routes";
 import { usePathname } from "next/navigation";
 const Header = () => {
   const pathname = usePathname();
-  console.log(pathname);
   return (
     <header className={styles.header}>
       {routes.map((item) => (

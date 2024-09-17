@@ -31,3 +31,7 @@ body {
   padding: 20px;
 
 }
+
+.group-layout{
+  border: 3px solid red;
+}
